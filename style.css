@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(240, 239, 239);
+    font-family: 'Roboto Slab', serif;
+}
+
+h1{
+    margin: 0;
+    font-weight: 700;
+    color: lightblue;
+    padding: 3rem;
+}
+
+h2{
+    margin: 0;
+    font-weight: 700;
+    display: inline-block;
+    color: lightblue;
+    font-style: italic;
+    padding: 1rem;
+}
+
+.box {
+    background: #fff;
+    width: 50rem;
+    padding: 3rem;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    background-color: darkcyan;
+}
+
+.header{
+    border-style: double;
+    color: black;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .container {
+      display: flex;  
+    }
